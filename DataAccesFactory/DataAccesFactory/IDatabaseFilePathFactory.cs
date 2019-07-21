@@ -4,8 +4,8 @@ using System.Text;
 
 namespace DataAccesFactory
 {
-   public interface IDatabaseFilePathFactory
+    public interface IDatabaseFilePathFactory
     {
-        Func<IDatabaseFilePath> GetDatabaseFilePath();
+        Func<IDatabaseFilePath> Create{get;set;}
     }
 }
